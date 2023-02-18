@@ -13,7 +13,7 @@
 		g++ -fPIC -c lib1.cpp -o libs1_dynamic.so - динамическая
 		
 	3.3)Создал библиотеку из объектного кода
-		ar -crv         /home/dima/progs/libs/static/libstatic1.a libs1_static.o    - статическая
+		ar -crv         /home/dima/progs/libs/static/libstatic1.a   libs1_static.o  - статическая
 		g++ -shared -o  /home/dima/progs/libs/dynamic/libdynamic1.a libs1_dynamic.o - динамическая
 		
 	3.4)индексация функций внутри библиотеки(пишут что так быстрее линкуется) для статической
@@ -34,7 +34,7 @@
 		./a2.out
 		
 	3.7)Перемещаю библиотеку в /usr/lib
-		sudo cp /home/dima/progs/libs/static/libstatic1.a /usr/lib    -статическая
+		sudo cp /home/dima/progs/libs/static/libstatic1.a   /usr/lib  -статическая
 		sudo cp /home/dima/progs/libs/dynamic/libdynamic1.a /usr/lib  -динамическая
 	3.8)Обновляю кеш данных о библиотеках линковщика
 		sudo ldconfig
