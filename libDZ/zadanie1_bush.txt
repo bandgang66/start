@@ -40,9 +40,9 @@
 		sudo ldconfig
 	3.9)Компиляция и запуск
 		g++ Main.cpp -lstatic1 -o a2.out  -статическая
-		./a2.out
+		./a3.out
 		
 		g++ Main.cpp -ldynamic1 -o a2.out -динамическая
-		./a2.out
+		./a4.out
 		
 			
