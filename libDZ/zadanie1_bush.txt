@@ -3,7 +3,8 @@
 2)Создал файл Main.cpp
 3)Терминал
 	3.1)Создал свою папку библиотек (папка с проектом называется progs)
-		mkdir libs -> cd libs
+		mkdir libs
+		cd libs
 		mkdir static
 		mkdir dynamic
 		
