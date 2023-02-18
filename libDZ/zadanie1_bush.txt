@@ -27,7 +27,7 @@
 		./a.out
 		
 	3.6)Еще один способ Компиляции и запуск
-		g++ Main.cpp -L/home/dima/progs/libs/static -lstatic1 -o a1.out   -статическая
+		g++ Main.cpp -L/home/dima/progs/libs/static  -lstatic1  -o a1.out   -статическая
 		./a1.out
 		
 		g++ Main.cpp -L/home/dima/progs/libs/dynamic -ldynamic1 -o a2.out -динамическая
